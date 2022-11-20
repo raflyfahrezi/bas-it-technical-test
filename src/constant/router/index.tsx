@@ -30,14 +30,8 @@ export const routes: TRouter[] = [
     element: <Company />,
   },
   {
-    path: '/financial-assumption',
-    name: 'Financial Assumption',
-    icon: <FinanceIcon />,
-    element: <Financial />,
-  },
-  {
-    path: '/questiones',
-    name: 'Questiones',
+    path: '/questions',
+    name: 'Questions',
     icon: <QuestionsIcon />,
     element: <Questiones />,
   },
@@ -46,6 +40,12 @@ export const routes: TRouter[] = [
     name: 'Sales and Marketing',
     icon: <SalesIcon />,
     element: <SalesAndMarketing />,
+  },
+  {
+    path: '/financial-assumption',
+    name: 'Financial Assumption',
+    icon: <FinanceIcon />,
+    element: <Financial />,
   },
   {
     path: '/competitor-and-capital',
